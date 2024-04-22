@@ -1,5 +1,9 @@
 /* This is a comment */
 
+.navbar {
+    background-color: salmon;
+}
+
 span {
     color: color(from green srgb r g b / 0.5);
 }
