@@ -4,6 +4,11 @@
     background-color: salmon;
 }
 
+h1 {
+    text-decoration: green wavy underline;
+    text-align: center;
+}
+
 span {
     color: color(from green srgb r g b / 0.5);
 }
