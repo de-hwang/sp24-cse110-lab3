@@ -1,5 +1,9 @@
 /* This is a comment */
 
+* {
+    font-family: Montserrat;
+}
+
 .navbar {
     display: none;
 }
