@@ -1,5 +1,10 @@
 /* This is a comment */
 
 span {
-    color: color(from green srgb r g b / 0.5)
+    color: color(from green srgb r g b / 0.5);
+}
+
+#randomID {
+    --var-color: orange;
+    color: var(--var-color, blue);
 }
