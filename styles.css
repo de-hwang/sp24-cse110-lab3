@@ -92,3 +92,13 @@ span {
     --var-color: orange;
     color: var(--var-color, blue);
 }
+
+@media (max-width: 1250px) {
+    body {
+        font-size: 30px;
+    }
+
+    .gridcontainer {
+        column-gap: 200px;
+    }
+}
