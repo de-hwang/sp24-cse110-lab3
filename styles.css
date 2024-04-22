@@ -1,13 +1,30 @@
 /* This is a comment */
 
 .navbar {
-    background-color: salmon;
     display: none;
+}
+
+img {
+    height: 200px;
+    width: 5in;
+    min-width: 0.1cm;
+}
+
+img:hover {
+    max-width: 2cm;
+    width: 10%;
+}
+
+img:active {
+    max-width: 1000em;
+    width: 500rem; 
+    height: 20in;
 }
 
 h1 {
     text-decoration: green wavy underline;
     text-align: center;
+    background-color: salmon;
 }
 
 span {
