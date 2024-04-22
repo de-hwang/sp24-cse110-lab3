@@ -7,6 +7,7 @@
 img {
     height: 200px;
     width: 5in;
+    min-width: 0.1cm;
 }
 
 img:hover {
@@ -17,6 +18,7 @@ img:hover {
 img:active {
     max-width: 1000em;
     width: 500rem; 
+    height: 20in;
 }
 
 h1 {
