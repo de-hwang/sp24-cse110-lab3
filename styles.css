@@ -2,6 +2,7 @@
 
 .navbar {
     background-color: salmon;
+    display: none;
 }
 
 h1 {
@@ -11,6 +12,10 @@ h1 {
 
 span {
     color: color(from green srgb r g b / 0.5);
+}
+
+#attendance {
+    display: block;
 }
 
 #randomID {
