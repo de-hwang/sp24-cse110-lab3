@@ -88,6 +88,17 @@ span {
     color: color(from green srgb r g b / 0.5);
 }
 
+details {
+    font-size: 20px;
+    & > p {
+        font-size: 50px;
+    }
+}
+
+legend:has(~ label) {
+    color: blue;
+}
+
 #attendance {
     display: block;
 }
@@ -95,6 +106,35 @@ span {
 #randomID {
     --var-color: orange;
     color: var(--var-color, blue);
+}
+
+p > strong {
+    color: green;
+}
+
+legend ~ label {
+    color: purple;
+}
+
+label[for="Checkbox"] {
+    font-weight: bold;
+}
+
+label.combineTest {
+    color: pink;
+}
+
+button, 
+option {
+    font-size: 50px;
+}
+
+select option {
+    color: blue;
+}
+
+option + option {
+    color: red;
 }
 
 @media (max-width: 1250px) {
